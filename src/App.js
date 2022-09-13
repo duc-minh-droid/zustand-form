@@ -4,9 +4,8 @@ import Users from "./Users";
 
 function App() {
   return (
-    <div className="App">
+    <div className="w-screen h-screen flex justify-between items-center">
       <Users />
-      <hr/>
       <Form />
     </div>
   );

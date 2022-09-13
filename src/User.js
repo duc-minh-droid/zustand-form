@@ -2,7 +2,7 @@ import React from 'react'
 
 function User({user}) {
   return (
-    <div>
+    <>
         <div>
             {user.name}
         </div>
@@ -18,7 +18,7 @@ function User({user}) {
         <div>
             {user.mail}
         </div>
-    </div>
+    </>
   )
 }
 
